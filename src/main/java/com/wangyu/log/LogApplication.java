@@ -12,6 +12,7 @@ public class LogApplication {
 		SpringApplication.run(LogApplication.class, args);
 		log.error("这是王钰的信息");
 		System.out.println("修改了语句");
+		System.out.println("哈哈");
 	}
 
 }
