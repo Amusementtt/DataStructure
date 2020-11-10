@@ -11,6 +11,7 @@ public class LogApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(LogApplication.class, args);
 		log.error("这是王钰的信息");
+		System.out.println("修改了语句");
 	}
 
 }
